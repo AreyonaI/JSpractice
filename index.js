@@ -37,7 +37,7 @@ console.log("Access Granted");
 } 
 else{
     console.log("Access denied");
-}*/
+}
 
 let num=0;
 
@@ -52,3 +52,64 @@ else if(num >0 && num<100){
 else{
     console.log("bad");
 }
+
+for(i = 5;/*initialization*i<=15;condition;i+=5increment increase){
+    console.log(i);
+}
+for(i=0; i< array.length; i++) {
+    const elemnet=array[index];
+}
+*/
+
+/*
+let x=5
+
+while(x<=15){
+    console.log(x);
+    x+=2;
+}
+
+//array
+const fruits =["apple","orange","cherry", "tomato"]
+console.log(fruits);
+console.log(fruits[3]);
+console.log(fruits.length);
+
+for (i=0; i<fruits.length; i++){
+    console.log(fruits[i])
+}
+
+let z="HAPPY 4TH OF JULY"
+for (i=0; i<z.length; i++){
+    console.log(z[i])
+}
+
+
+
+let y="Steve"
+let o=" Carlson"
+let names = y+o
+
+function sayHello(names){
+    console.log( "Hello "+names+"!");
+}
+sayHello(names)*/
+
+let n1=24;
+let n2=77;
+
+function areBothEven(n1, n2) {
+    return !(n1 % 2) && !(n2 % 7);
+}
+
+console.log(areBothEven(n1,n2));
+
+let width=18;
+let height=8;
+
+function computeArea(width,height){
+    return (width*height);
+
+}
+
+console.log("The area of a rectangle with a width of "+width+" and a height of "+height+" is "+computeArea(width, height)+" square units.")
