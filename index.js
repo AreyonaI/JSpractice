@@ -94,7 +94,7 @@ function sayHello(names){
     console.log( "Hello "+names+"!");
 }
 sayHello(names)*/
-
+/*
 let n1=24;
 let n2=77;
 
@@ -113,3 +113,79 @@ function computeArea(width,height){
 }
 
 console.log("The area of a rectangle with a width of "+width+" and a height of "+height+" is "+computeArea(width, height)+" square units.")
+*/
+/*
+//object
+const closet ={
+    shirts: 'blue',
+    black: "black",
+    dresses: 'purple'
+};
+
+console.log(closet.dresses)
+
+closet.shoes="adidas"
+console.log(closet)
+*/
+const inventory=[// an array
+    {
+        brand:"Chevy",// an instance
+        model:"caprise",
+        year:1986
+    },
+    {
+        brand:"Toyota",
+        model:"camry",
+        year:2015
+    }   
+]
+
+inventory[0].color="blue";
+console.log(inventory[0])
+
+
+/*class Movie {
+    constructor(title,rating,starttime)/*parameters{
+
+        this.title = title;//properties
+        this.rating= rating;
+        this.starttime = starttime;
+    }
+    start(){ //this is a method
+        this.begun = true;
+        console.log('This movie has started');
+    }
+    
+}
+const TENE = new Movie("TENET","18+","8:45pm")//Created a new object called TENET //instatiate the class
+
+console.log(TENET)
+
+TENET.start();// ObjectName.Method(); is how to call the method
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+class Movie {
+    constructor(title,rating,starttime)/*parameters*/{
+
+        this.title = title;//properties
+        this.rating= rating;
+        this.starttime = starttime;
+    }
+  
+}
+const TENET = new Movie("TENET","18+","8:45pm")//Created a new object called TENET
+const theLittleMermaid = new Movie("The Little Mermaid","E","2:15pm")
+console.log(theLittleMermaid)
+console.log(TENET)
+

@@ -9,3 +9,20 @@ function addList(nums,sum){
 }
 
 console.log(addList(nums,sum));
+
+/* new waycd
+function addList(...numbers){
+  if(numbers.length === 0){
+    return 0;
+  }
+
+  let sum=0;
+
+  for (let i = 0; i < numbers.length; i++ ){
+  sum += numbers[i];
+  }
+  return (sum);
+}
+
+7\
+console.log(addList(1,5,2,4,-2));*/
